@@ -14,7 +14,8 @@ const LoginForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    const logs = document.getElementById("logss");
+logs.innerHTML = "WAIT";
     const response = await fetch(Api, {
       method: "POST",
       headers: {
@@ -73,7 +74,7 @@ const LoginForm = () => {
               setData({ ...data, password: e.target.value.toLocaleLowerCase() });
             }}
           />
-          <button type="submit" className="btn">
+          <button type="submit" id="logs" className="btn">
             Login
           </button>
         </form>
