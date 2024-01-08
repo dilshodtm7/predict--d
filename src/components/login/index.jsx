@@ -74,7 +74,7 @@ logs.innerHTML = "WAIT";
               setData({ ...data, password: e.target.value.toLocaleLowerCase() });
             }}
           />
-          <button type="submit" id="logs" className="btn">
+          <button type="submit" id="logss" className="btn">
             Login
           </button>
         </form>
