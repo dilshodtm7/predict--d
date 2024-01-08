@@ -1,0 +1,86 @@
+
+.container {
+    /* border-radius: 10px;
+    border: 0; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.0); */
+    margin:0 0% 20% 0%;
+    /* width: 80%; */
+    height: 60vh;
+    padding: 20px;
+  }
+  
+  form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .inputs{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 26px;
+    background-color: #fff;
+  }
+  
+  .btn{
+    background-color:#238636;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    
+  }
+  .disables{
+    background-color:#f7d9c8 ;
+
+  }
+
+
+
+
+
+  .aa {
+    margin-bottom: 20px;
+    color: white;
+  }
+.container-avia{
+width:100%;
+}
+.reginput{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 70%;
+    height: 25px;
+    font-size: 22px;
+    background-color: #fff;
+}
+.regbutton{
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 50px;
+    font-size: 35px;
+}
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+      }
+
+.forms{
+    margin-top: 50px;
+}

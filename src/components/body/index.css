@@ -1,0 +1,36 @@
+.body-container{
+
+    width: 75%;
+
+    margin: 20px auto;
+
+}
+.for-btn{
+    display: block;
+    padding: 10% 0;
+    width: 100%;
+    
+
+
+}
+.links{
+    text-decoration: none;
+
+
+}
+.btn{
+    width: 100%;
+    display: block;
+    
+    height: 50px;
+     border-radius: 20px;
+    border: 0;
+    background-color: rebeccapurple;
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+.logo{
+
+    width: 100%;
+}
