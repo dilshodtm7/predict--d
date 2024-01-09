@@ -7,7 +7,7 @@ const index = () => {
     <>
     <div className="footer-container">
 
-<a className='textt' href="https://t.me/lucky_jet_admin"> 
+<a className='textt' href="https://t.me/inside_lucky_admin"> 
 <BsTelegram className='tg'/>LUCKY JET ADMIN</a>
 
     </div>
