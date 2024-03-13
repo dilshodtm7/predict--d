@@ -8,6 +8,8 @@ const index = () => {
 const toks = localStorage.getItem("token")
 const idss= localStorage.getItem("id")
 
+console.log(idss)
+
   const [keytocheck, setkeytocheck] = useState('');
 
 
