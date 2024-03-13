@@ -12,7 +12,7 @@ const index = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if(localStorage.getItem('id') === keytocheck){
+    if(localStorage.getItem('id') === keytocheck+5233){
       localStorage.setItem('tokenavia','active');
       navigate("/predict/aviator/active")
     }else{
