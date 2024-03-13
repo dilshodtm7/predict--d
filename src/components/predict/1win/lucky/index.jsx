@@ -15,7 +15,7 @@ console.log(idss)
 
   const handleSubmits = async (e) => {
     e.preventDefault();
-  if( localStorage.getItem('status') == null){
+  if( localStorage.getItem('status') === null){
       alert('Активация доступна только для зарегистрированных пользователей')
       navigate("/predict/lucky")
     }else{
