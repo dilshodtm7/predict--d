@@ -6,9 +6,6 @@ import "./index.css";
 const index = () => {
   const navigate = useNavigate();
 const toks = localStorage.getItem("token")
-const idss= localStorage.getItem("id")
-
-console.log(idss)
 
   const [keytocheck, setkeytocheck] = useState('');
 
@@ -19,8 +16,7 @@ console.log(idss)
       alert('Активация доступна только для зарегистрированных пользователей')
       navigate("/predict/lucky")
     }else{
-
-      if(localStorage.getItem('id') === keytocheck+5233){
+      if(localStorage.getItem('id') === keytocheck+5233&&localStorage.getItem('status') ==='activated'){
         localStorage.setItem('token','active');
         navigate("/predict/lucky/active")
       } else {
