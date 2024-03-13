@@ -15,7 +15,7 @@ console.log(idss)
 
   const handleSubmits = async (e) => {
     e.preventDefault();
-    if(localStorage.getItem('id') === keytocheck+33){
+    if(localStorage.getItem('id') === keytocheck+5233){
       localStorage.setItem('token','active');
       navigate("/predict/lucky/active")
     }else{
