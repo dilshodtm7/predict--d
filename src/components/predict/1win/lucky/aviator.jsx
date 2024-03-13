@@ -12,11 +12,19 @@ const index = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if(localStorage.getItem('id') === keytocheck+5233){
-      localStorage.setItem('tokenavia','active');
-      navigate("/predict/aviator/active")
+    if( localStorage.getItem('status') === null){
+      alert('Активация доступна только для зарегистрированных пользователей')
+      localStorage.setItem('token','active');
+
+      navigate("/predict/lucky/active")
     }else{
-      alert('Неправильный ключ')
+
+      if(localStorage.getItem('id') === keytocheck+5233){
+        localStorage.setItem('token','active');
+        navigate("/predict/aviator/active")
+      } else {
+        alert('Неправильный ключ')
+      }
     }
   }
 const toksavia = localStorage.getItem("tokenavia")
