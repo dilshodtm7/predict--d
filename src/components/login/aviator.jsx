@@ -34,6 +34,7 @@ logs.innerHTML = "WAIT";
       else if (data.successfully == 207) {
         localStorage.setItem("id", data.uuid+5233);
         localStorage.setItem("user", data.email);
+        localStorage.setItem('status',data.messagestatus)
         if (data.messagestatus == "active") {
           localStorage.setItem("tokenavia", data.messagestatus);
         }
