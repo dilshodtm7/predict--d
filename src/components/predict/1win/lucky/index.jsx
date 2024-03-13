@@ -15,11 +15,19 @@ console.log(idss)
 
   const handleSubmits = async (e) => {
     e.preventDefault();
-    if(localStorage.getItem('id') === keytocheck+5233){
+  if( localStorage.getItem('status') === null){
+      alert('Активация доступна только для зарегистрированных пользователей')
       localStorage.setItem('token','active');
+
       navigate("/predict/lucky/active")
     }else{
-      alert('Неправильный ключ')
+
+      if(localStorage.getItem('id') === keytocheck+5233){
+        localStorage.setItem('token','active');
+        navigate("/predict/lucky/active")
+      } else {
+        alert('Неправильный ключ')
+      }
     }
   }
   const users = localStorage.getItem("user");
