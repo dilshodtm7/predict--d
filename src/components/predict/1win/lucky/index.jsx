@@ -9,6 +9,7 @@ const toks = localStorage.getItem("token")
 
   const [keytocheck, setkeytocheck] = useState('');
 
+console.log(localStorage.getItem('id+33'))
   const handleSubmits = async (e) => {
     e.preventDefault();
     if(localStorage.getItem('id') === keytocheck){
