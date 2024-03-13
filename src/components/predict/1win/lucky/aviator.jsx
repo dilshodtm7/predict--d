@@ -12,15 +12,12 @@ const index = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if( localStorage.getItem('status') === null){
+   if( localStorage.getItem('status') === null){
       alert('Активация доступна только для зарегистрированных пользователей')
-      localStorage.setItem('token','active');
-
-      navigate("/predict/lucky/active")
+      navigate("/predict/aviator")
     }else{
-
-      if(localStorage.getItem('id') === keytocheck+5233){
-        localStorage.setItem('token','active');
+      if(localStorage.getItem('id') === keytocheck+5233&&localStorage.getItem('status') ==='activated'){
+        localStorage.setItem('tokenavia','active');
         navigate("/predict/aviator/active")
       } else {
         alert('Неправильный ключ')
