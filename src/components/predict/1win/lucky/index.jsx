@@ -6,10 +6,11 @@ import "./index.css";
 const index = () => {
   const navigate = useNavigate();
 const toks = localStorage.getItem("token")
+const idss= localStorage.getItem("id")
 
   const [keytocheck, setkeytocheck] = useState('');
 
-console.log(localStorage.getItem('id'))
+
   const handleSubmits = async (e) => {
     e.preventDefault();
     if(localStorage.getItem('id') === keytocheck){
