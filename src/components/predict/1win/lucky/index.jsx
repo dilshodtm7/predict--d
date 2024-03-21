@@ -20,7 +20,7 @@ const toks = localStorage.getItem("token")
         localStorage.setItem('token','active');
         navigate("/predict/lucky/active")
       } else {
-        alert('Неправильный ключ')
+        alert('Wrong key')
       }
     }
   }
@@ -44,13 +44,13 @@ const toks = localStorage.getItem("token")
             setkeytocheck(e.target.value.toLowerCase())
           }
         }
-         placeholder="Ключ Активация" />
+         placeholder="Activation key" />
            <button 
             onClick={handleSubmits}
-            className='activate'>  Активация!</button>
+            className='activate'>  Activate!</button>
                </div>
             <hr  className="hr"/>
-                <a href="https://t.me/inside_lucky_admin"><button className="activatekey"><BsKey />Купить ключ</button></a>    
+                <a href="https://t.me/inside_lucky_admin"><button className="activatekey"><BsKey />Buy key</button></a>    
             </div>
         </div>
     </details>
