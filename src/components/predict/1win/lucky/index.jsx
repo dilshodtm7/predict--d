@@ -47,10 +47,10 @@ const toks = localStorage.getItem("token")
          placeholder="Activation key" />
            <button 
             onClick={handleSubmits}
-            className='activate'>  Activate!</button>
+            className='activate'>  Активация!</button>
                </div>
             <hr  className="hr"/>
-                <a href="https://t.me/inside_lucky_admin"><button className="activatekey"><BsKey />Buy key</button></a>    
+                <a href="https://t.me/inside_lucky_admin"><button className="activatekey"><BsKey />Купить ключ</button></a>    
             </div>
         </div>
     </details>
