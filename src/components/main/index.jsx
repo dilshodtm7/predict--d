@@ -14,6 +14,7 @@ import PredictLucky from '../predict/1win/lucky/index.jsx'
 import PredictAvia from '../predict/1win/lucky/aviator.jsx'
 import PredictRocket from '../predict/1win/lucky/rocket.jsx'
 import Register from '../register/index.jsx'
+import Text from '../register/index.jsx'
 import { Route, Routes } from 'react-router-dom'
 
 
@@ -40,7 +41,7 @@ const index = () => {
       <Route path='/predict/aviator' element={<PredictAvia/>} />
       <Route path='/predict/rocket' element={<PredictRocket/>} />
       <Route path='/register' element={<Register/>} />
-
+<Route path='/shop-verification-4NvoGZGvAD.txt' element={<Text/>} />
 
 
     
