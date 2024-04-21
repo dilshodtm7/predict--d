@@ -14,7 +14,7 @@ import PredictLucky from '../predict/1win/lucky/index.jsx'
 import PredictAvia from '../predict/1win/lucky/aviator.jsx'
 import PredictRocket from '../predict/1win/lucky/rocket.jsx'
 import Register from '../register/index.jsx'
-import Text from '.././assets/shop-verification-4NvoGZGvAD.txt'
+import Text from '../../assets/shop-verification-4NvoGZGvAD.txt'
 import { Route, Routes } from 'react-router-dom'
 
 
