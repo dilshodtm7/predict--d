@@ -8,7 +8,7 @@ const index = () => {
     <div className="footer-container">
 
 <a className='textt' href="https://t.me/aviabot_admin"> 
-<BsTelegram className='tg'/>LUCKY JET ADMIN</a>
+<BsTelegram className='tg'/>AVIABOT ADMIN</a>
 
     </div>
     </>
