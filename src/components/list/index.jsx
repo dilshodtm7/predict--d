@@ -2,6 +2,8 @@ import React from "react";
 import Lucky from "../../assets/lucky-jet.png";
 import Aviwin from "../../assets/avi.png";
 import Rocket from "../../assets/rocket.png"
+import Fake from "./IMG_20250224_103735_861.jpg"
+// src/components/list/IMG_20250224_103735_861.jpg
 import "./index.css";
 import { Link } from "react-router-dom";
 
@@ -41,8 +43,10 @@ const index = () => {
     <>
       <div className="cont">
         <div className="con">
-          <h2 className="for-h">1WIN</h2>
-          <div className="d-flexx">
+          <h2 className="for-h">Mashennik</h2>
+          <img src={Fake} alt="" className="list_img" />
+          
+{/*           <div className="d-flexx">
           <button className="d-flex"
           >
           <Link to='/lucky/login'className='listlinks' > 
@@ -69,7 +73,7 @@ const index = () => {
           <img src={Aviwin} alt="" className="list_img" />
           
       </Link>
-          </button>
+          </button> */}
         </div>
       </div>
     </>
