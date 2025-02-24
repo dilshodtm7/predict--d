@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./index.css";
 const LoginForm = () => {
   const navigate = useNavigate();
-  const Api = "https://back-d-dbm2.onrender.com/auth/sign-up";
+  const Api = "https://backend-d-6i0l.onrender.com/auth/sign-up";
 
   if (localStorage.getItem("token")) {
     navigate("/");
