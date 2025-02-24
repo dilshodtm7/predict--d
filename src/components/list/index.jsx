@@ -42,7 +42,7 @@ const index = () => {
   return (
     <>
       <div className="cont">
-        <div className="con">
+{/*         <div className="con"> */}
           <h2 className="for-h">Mashennik</h2>
           <img src={Fake} alt="" className="list_imgss" />
           
@@ -74,7 +74,7 @@ const index = () => {
           
       </Link>
           </button> */}
-        </div>
+{/*         </div> */}
       </div>
     </>
   );
