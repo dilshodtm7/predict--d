@@ -7,7 +7,7 @@ const index = () => {
   const [logindata, setLogindata] = useState({});
   const navigate = useNavigate();
 
-  const Api = "https://pred-4pmr.onrender.com/auth/sign-up";
+  const Api = "https://backend-d-6i0l.onrender.com/auth/sign-up";
 
   const registerForm = async (e) => {
     e.preventDefault();
