@@ -51,7 +51,7 @@ const toksavia = localStorage.getItem("tokenavia")
             className='activate'>Активация!</button>
                </div>
             <hr  className="hr"/>
-                <a href="https://t.me/inside_lucky_admin"><button className="activatekey"><BsKey />Купить ключ</button></a>    
+                <a href="https://t.me/jets_admin"><button className="activatekey"><BsKey />Купить ключ</button></a>    
             </div>
         </div>
     </details>
