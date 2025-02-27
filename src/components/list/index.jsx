@@ -42,8 +42,8 @@ const index = () => {
     <>
       <div className="cont">
         <div className="con">
-{/*           <h2 className="for-h">Mashennik</h2>
-          <img src={Fake} alt="" className="list_imgss" /> */}
+          <h2 className="for-h">1WIN</h2>
+{/*           <img src={Fake} alt="" className="list_imgss" /> */}
           
           <div className="d-flexx">
           <button className="d-flex"
